@@ -1,0 +1,2 @@
+make,model,year,engine_fuel_type,engine_hp,engine_cylinders,transmission_type,driven_wheels,number_of_doors,market_category,vehicle_size,vehicle_style,highway_mpg,city_mpg,popularity
+bmw,1_series,2012,unleaded,340,6,manual,rear_wheel_drive,4,luxury,compact,coupe,27,20,3920
