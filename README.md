@@ -8,3 +8,5 @@
 - Go to https://streamlit.io/cloud to deploy your project on streamlit cloud
 
 _Note_ : _Don't forget to list your package version into requirements.txt file_
+
+_Deployment Result: https://budisumandra-car-price-prediction-app-dcl6dw.streamlit.app/_
