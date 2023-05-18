@@ -1,8 +1,8 @@
-import pickle as pk
+#import pickle as pk
 import pandas as pd
 
 with open('car_price_prediction.bin', 'rb') as f_in:
-    sc, rf,_,_,_,_ = pk.load(f_in)    
+    sc, rf,_,_,_,_ = pd.read_pickle(f_in)    
 
 def predict_single(df_params,df):
     cat_features = ['make', 'model', 'engine_fuel_type', 'transmission_type', 'driven_wheels', 'vehicle_size', 'vehicle_style','market_category']
